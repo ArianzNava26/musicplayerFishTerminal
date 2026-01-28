@@ -1,7 +1,1 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
-
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
+    mpv --no-video --ytdl-format="bestaudio" --term-playing-msg='Sedang Memutar: ${media-title}' "ytdl://ytsearch10:$argv"
